@@ -2,7 +2,7 @@
 
 [![pipeline status](https://gitlab.com/INITIATES/mikan/badges/master/pipeline.svg)](https://gitlab.com/INITIATES/mikan/commits/master)
 
-MyanimeList Json Rest API 
+MyanimeList Json Rest API ENDPOINTS
 
 # INTRODUCTION
 
