@@ -13,7 +13,7 @@ try it out !!! it's free and has no limits as of now
 Host: Https://initiate.host
 Endpoints:
 
-anime/{ID}  **ID for TV/OVA/ONA/SPECIAL/MUSIC**
+anime/{ID}    **ID for TV/OVA/ONA/SPECIAL/MUSIC   EXAMPLE https://initiate.host/anime/1**
 
 
 
