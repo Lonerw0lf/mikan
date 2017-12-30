@@ -31,16 +31,14 @@ Example: [https://myanimelist.net/anime/1535/Death_Note](https://myanimelist.net
 
 Host:	[https://initiate.host/](https://initiate.host/)    
 
-**JSON Rest API.**    
+**JSON Rest Endpoints.**   
+
 Normal Usage: /anime/{ID}  i.e.: [https://initiate.host/anime/1](https://initiate.host/anime/1)
   
-For logs:
-/stratum/loggs/{ID}
-In case you want to filter the level, use:
-/stratum/loggs/{ID}?level={level}
-as level can be: error, debug or info
-
-Do not share the request ID with anyone, as in the logs it contains your IP Address, only use it for yourself or to open an issue.
+For logs: /stratum/loggs/{ID}  
+In case you want to filter the level, there's the parameter with 3 options called level:  
+/stratum/loggs/{ID}?level={level}  
+level can be error, debug or info
 
 ## Issues
 
