@@ -40,6 +40,8 @@ In case you want to filter the level, use:
 /stratum/loggs/{ID}?level={level}
 as level can be: error, debug or info
 
+Do not share the request ID with anyone, as in the logs it contains your IP Address, only use it for yourself or to open an issue.
+
 ## Issues
 
 Mikan is currently in development, do expect some little bugs (no missing data), and if you face any issue, open an issue with the request ID from the Json.
