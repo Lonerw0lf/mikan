@@ -1,20 +1,45 @@
-# Mikan #
+<h1 align="center"> Mikan </h1> <br>
 
-[![pipeline status](https://gitlab.com/INITIATES/mikan/badges/master/pipeline.svg)](https://gitlab.com/INITIATES/mikan/commits/master)
+<p align="center">
+  <a href="https://initiate.host/">
+    <img alt="Mikan" title="Mikan" src="https://vgy.me/shLDxh.png" style="width: 200px;">
+  </a>
+</p>
 
-MyanimeList Json Rest API ENDPOINTS
+<p align="center">
+  Endpoint for MyAnimeList API (WIP)
+</p>    
 
-# INTRODUCTION
+## Table of Contents
 
-Mikan is Json rest api for MAL that is in development, it was orignally made for our app(Setsuna) that will be released, And that's it ladies and gentleman :) 
-
-try it out !!! it's free and has no limits as of now 
-
-Host: Https://initiate.host
-Endpoints:
-
-anime/{ID}    **ID for TV/OVA/ONA/SPECIAL/MUSIC   EXAMPLE https://initiate.host/anime/1**
+- [Introduction](#introduction)
+- [Usage](#usage)
+- [Issues](#issues)
 
 
+## Introduction
 
-# [!][**MIKAN IS IN DEVELOPMENT EXPECT SOME LITTLE BUGS (NO MISSING DATA) IF YOU FACE ANY ISSUE OPEN A ISSUE WITH THE REQUEST ID FROM JSON**] 
+Get a full MyAnimeList information on any kind of anime and manga (WIP) using their respective MAL ID.  
+Made for our new soon-to-be-released app Setsuna and for future projects.  
+ 
+It is **free** and has no limits of now _(30/12/2017)_
+
+Example: [https://myanimelist.net/anime/1535/Death_Note](https://myanimelist.net/anime/1535/Death_Note), in this case the MAL ID is 1535. Check Usage to see how to interact with the API.
+[https://i.imgur.com/FHExi6e.png](https://i.imgur.com/FHExi6e.png)
+
+## Usage
+
+Host:	[https://initiate.host/](https://initiate.host/)    
+
+**JSON Rest API.**    
+Normal Usage: /anime/{ID}  i.e.: [https://initiate.host/anime/1](https://initiate.host/anime/1)
+  
+For logs:
+/stratum/loggs/{ID}
+In case you want to filter the level, use:
+/stratum/loggs/{ID}?level={level}
+as level can be: error, debug or info
+
+## Issues
+
+Mikan is currently in development, do expect some little bugs (no missing data), and if you face any issue, open an issue with the request ID from the Json.
